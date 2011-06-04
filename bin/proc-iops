@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+use App::ProcIops;
+App::ProcIops->new->run( @ARGV );
+exit;
+
+__END__
+
+=head1 NAME
+
+proc-iops - Show process I/O operations
+
+=head1 SYNOPSIS
+
+  proc-iops <pid>
+
+      --help
+
+=head1 DESCRIPTION
+
+Summarize a process's I/O operations in real time.
