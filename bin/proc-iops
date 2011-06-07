@@ -10,6 +10,10 @@ __END__
 
 proc-iops - Show process I/O operations
 
+=head1 VERSION
+
+version 0.002
+
 =head1 SYNOPSIS
 
   proc-iops <pid>

@@ -1,8 +1,10 @@
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
-README
 bin/proc-iops
 dist.ini
 lib/App/ProcIops.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t

@@ -1,8 +1,15 @@
 package App::ProcIops;
+BEGIN {
+  $App::ProcIops::VERSION = '0.002';
+}
 
 =head1 NAME
 
 proc-iops - Show process I/O operations
+
+=head1 VERSION
+
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -17,7 +24,6 @@ Summarize a process's I/O operations in real time.
 =cut
 
 use strict;
-use warnings;
 
 use English -no_match_vars;
 use Getopt::Long ();
